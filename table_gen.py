@@ -13,8 +13,8 @@ import os
 
 numberProblems = 50
 heading = 'Problem | Language | Completed?'
-langs = ['python']
-exts = ['.py']
+langs = ['python', 'go']
+exts = ['.py', '.go']
 
 # create github markdown formatted string for a specific problem
 def format_line(problemNumber, langs):
